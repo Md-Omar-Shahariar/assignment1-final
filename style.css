@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.developer-image {
+}
+.half-width {
+  width: 50%;
+}
+.container {
+  display: flex;
+
+  margin: 0 15%;
+}
+.stay-focused {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section {
+  margin-bottom: 30px;
+}
+.button1 {
+  display: block;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(255, 136, 0), rgb(211, 85, 62));
+  width: 180px;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.half-width img {
+  width: 400px;
+  height: 500px;
+  margin-left: 10%;
+}
+.half-width div p {
+  padding-right: 0%;
+}
+.my-mission {
+  width: 100%;
+}
+.my-mission h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#light-gray {
+  background-color: rgba(181, 184, 184, 0.356);
+}
+#light-pink {
+  background-color: rgba(250, 64, 250, 0.11);
+}
+#light-yellow {
+  background-color: rgba(255, 255, 9, 0.247);
+}
+.card {
+  height: 350px;
+  width: 350px;
+  background-color: tomato;
+  border-radius: 20px;
+  margin: 0 10px;
+  padding: 20px;
+}
+.card-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.stay-head {
+  font-size: 40px;
+  margin-top: 20%;
+  border-left: 5px solid red;
+  font-family: "Luxurious Roman", cursive;
+}
+.stay-head h2 {
+  margin-left: 20px;
+}
+.stay-head span {
+  display: block;
+}
+
+.stay-head p span {
+  padding-left: 2%;
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tomato {
+  color: rgba(255, 68, 0, 0.589);
+}
+.card img {
+  height: 100px;
+  width: 100px;
+}
+.card p {
+  margin-top: 10px;
+}
