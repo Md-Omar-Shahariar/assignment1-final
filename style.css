@@ -90,10 +90,7 @@ section {
 .stay-head p span {
   padding-left: 2%;
 }
-.section {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .tomato {
   color: rgba(255, 68, 0, 0.589);
 }
