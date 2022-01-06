@@ -23,7 +23,7 @@ p {
 }
 
 section {
-  margin-bottom: 30px;
+  padding-bottom: 100px;
 }
 .button1 {
   display: block;
@@ -108,8 +108,9 @@ section {
 .developer-banner {
   background-image: url(./images/shapes/shape-1.png);
   background-repeat: no-repeat;
-  background-size: auto;
+
   background-position: 200px;
+  background-position-y: center;
 }
 .one-third-width {
   width: 35%;
@@ -125,9 +126,30 @@ section {
   padding-left: 50px;
   width: 65%;
 }
+.rest-width-global {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 50px;
+  width: 65%;
+}
+
 .rest-width h1 {
+  font-size: 35px;
+}
+.rest-width-global h1 {
   font-size: 35px;
 }
 .rest-width div {
   margin-top: 20px;
+}
+.rest-width-global div {
+  margin-top: 20px;
+}
+.global-banner {
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+
+  background-position-y: bottom;
+  background-position-x: right;
 }
