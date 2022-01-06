@@ -10,6 +10,7 @@ p {
 .half-width {
   width: 50%;
 }
+
 .container {
   margin: 0 15%;
 }
@@ -39,9 +40,7 @@ section {
   width: 150px;
 }
 .half-width img {
-  width: 400px;
-  height: 500px;
-  margin-left: 10%;
+  width: 100%;
 }
 
 .my-mission {
@@ -117,7 +116,6 @@ section {
 }
 .one-third-width img {
   width: 100%;
-  height: 100%;
 }
 .rest-width {
   display: flex;
